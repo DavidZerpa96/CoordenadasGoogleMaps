@@ -94,11 +94,8 @@ Esto permite que el script pueda leer la API Key sin exponerla en el código.
 CoordenadasGoogleMaps/
 │── geocoding_script.py        # Código en Python sin exponer la API Key
 │── README.md                  # Documentación completa
-│── .gitignore                  # Para ocultar credenciales
 │── resultado_google.xlsx       # Archivo Excel con los datos procesados
-│── config/                     # Carpeta con instrucciones para la API Key
-│   ├── api_key_config.md       # Explicación sobre cómo configurar la API Key en Google Cloud
-│── requirements.txt            # Lista de dependencias
+│── datosenbruto.csv           #Información de base usada en el script. 
 ```
 
 ---
